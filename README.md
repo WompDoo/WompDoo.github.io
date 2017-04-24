@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+[5D Vision veebileht](/portfolio/projects/5dVeebileht/index.html)
 
-You can use the [editor on GitHub](https://github.com/WompDoo/portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="/portfolio/projects/5dVeebileht/index.html">5D Vision veebileht</a>
+    <br>
+<a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodcmJiNDdhbGVRSGc?usp=sharing">5D Vision veebilehe kavandid ning muud kujundus failid</a>
+<p>See projekt sai tehtud 5D Vision praktika vältel. Sellest lehest pidi saama nende uus koduleht, kuid teadmata
+    põhjustel seda ei juhtunud. </p>
 
-### Markdown
+<a href="/portfolio/projects/MKR/index.html">MKR Veebileht + admin vaade</a>
+<p>Lõputöö projekt, praegu veel tegemisel. Kahjuks saab ainult pealehte näidata(Github.io ei jooksuta PHP-d)</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<a href="https://github.com/WompDoo/Purr-Woof">Purr-Woof LUA koodis ehitatud android mängu Github link</a>
+    <br>
+<a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodQ1R0NGQwS1JaZm8?usp=sharing">Purr-Woof LUA koodis ehitatud android mängu link + minu tehtud graafika mängu jaoks</a>
+<p>APK fail on google draivis. Mängus saab valida endale looma ning teda sügada ja näiteks õue viia.</p>
+    
+<a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodYWJfRWlKUHFGWDA?usp=sharing">Google Draiv minu projektidest</a>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WompDoo/portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
