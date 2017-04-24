@@ -1,0 +1,53 @@
+body {
+    padding-top: 22%;
+}
+
+.headerDivider {
+   border-left: thick solid #ff0000;
+}
+
+.navfix {
+	background: white;
+    width: 100%;
+}
+
+.navbar-lang {
+    margin-top: -13%!important;
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.footer2 {
+    position: static;
+    margin-bottom: 1%;
+    width: 99%;
+}
+
+.group-social2 {
+    display: flex;
+}
+
+.bordersep {
+    border: 1px;
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+#adminNavbar {
+    position: absolute;
+    width: 100%;
+    margin-top: -22vmax;
+}
+
+#hiddenBtn {
+    margin-top: -22vmax;
+}

@@ -1,0 +1,8 @@
+<?php
+
+define('DATABASE_HOSTNAME', 'localhost');
+define('DATABASE_USERNAME', 'root');
+define('DATABASE_PASSWORD', '');
+define('DATABASE_DATABASE', 'MKR');
+
+$db = mysqli_connect(DATABASE_HOSTNAME,DATABASE_USERNAME,DATABASE_PASSWORD,DATABASE_DATABASE);

@@ -1,0 +1,436 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.lang li {
+    display: block;
+    float: left;
+    width: 33%;
+    height: 33px;
+
+}
+
+.lang-sep {
+    border: 1px;
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-color: gray;
+
+}
+
+.navbar-brand {
+    float: none;
+    height: 115px;
+}
+
+.layer {
+    background-color: rgba(220, 220, 220, .6);
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+
+#shopping-cart {
+    margin-top: 43vmin;
+}
+
+#btnEmpty {
+    float: right;
+}
+
+.navsep {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 2px;
+}
+
+.productimg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.footsep {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 20px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    background-color: rgba(220, 220, 220, .8);
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/*.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: rgba(220, 220, 220, .8);
+    border: none;
+    font-weight: bold;
+}
+*/
+.navbar-lang {
+    margin-top: -11%;
+    display: flex;
+    float: right;
+    margin-right: -30px;
+}
+
+.nav .navbar-lang > li {
+    /*background-color: rgba(76, 50, 35, .6);*/
+}
+
+.nav .navbar-lang > li > a {
+    border-width: 3px;
+    color: rgb(76, 50, 35);
+    background: none;
+    padding: 10px 10px;
+    font-size: 10px;
+
+}
+
+.nav .navbar-lang > li > a:hover {
+    font-weight: bold;
+    color: rgb(76, 50, 35);
+
+}
+
+.nav .navbar-lang > li > a.active {
+    color: rgb(76, 50, 35);
+    font-weight: bold;
+}
+
+.nav > li > a {
+    padding: 10px 45px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0);
+    border-bottom: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #080808;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 9.5px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a.active {
+    color: black;
+    font-weight: bold;
+}
+
+#productSlider img {
+    width: auto;
+    height: 54vmin;
+    max-height: 55vmin;
+    margin: auto;
+}
+
+#picCarousel > a.carousel-control {
+    background-image: none !important;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.socialborder {
+    border: 1px;
+    border-style: solid;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.group-social {
+    float: right;
+    display: flex;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+#mobileNav, #mobileNav .subnav {
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: max-height, .3s;
+    -moz-transition: max-height, .3s;
+    -o-transition: max-height, .3s;
+    transition: max-height, .3s;
+}
+
+#mobileMenuLink {
+    display: none;
+    visibility: hidden;
+    margin: 15px 0 0;
+}
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        padding-top: 26% !important;
+    }
+
+    .shopping-cart {
+        visibility: hidden;
+    }
+
+    .layer {
+        visibility: hidden;
+    }
+
+    .navbar-lang {
+        margin-top: 3%;
+        display: flex;
+        margin-left: 70%;
+    }
+
+    .navbar-cp {
+        margin-top: -16%;
+        display: flex;
+        float: left;
+        margin-right: -30px;
+    }
+
+    #mobileNav {
+        background-color: #ffffff;
+        margin-top: 0;
+    }
+
+    #mobileNav .wrapper {
+        border-bottom-width: 2px;
+    }
+
+    .nav > li > a {
+        color: black;
+        border-bottom-color: black;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 9.5px;
+    }
+
+    @media only screen and (max-width: 640px) {
+
+        #mobileNav .wrapper {
+            padding: 1em 0;
+            border-bottom-style: solid;
+            border-bottom-color: rgba(0, 0, 0, .1);
+        }
+    }
+
+    #mobileMenuLink {
+        margin: 0;
+        display: block;
+        font-size: 14px;
+        line-height: 1.6em;
+        font-weight: bold;
+        font-style: normal;
+        padding: 5px 5px 5px;
+        background-color: #ffffff;
+        border-bottom-style: solid;
+        border-bottom: 1px;
+        border-bottom-color: rgba(0, 0, 0, .1);
+        text-align: center;
+        visibility: visible;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+    }
+
+    #mobileMenuLink > a {
+        color: black;
+    }
+}
+
+.mainpic {
+    width: 259px;
+    height: 375px;
+}
+
+/* layout.css Style */
+.upload-drop-zone {
+    height: 100px;
+    border-width: 2px;
+    margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+    color: #ff695e;
+    border-style: dashed;
+    border-color: #ff695e;
+    line-height: 100px;
+    text-align: center;
+    background-color: #2f2f2f;
+}
+
+.upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+}
+
+#adminNavbar {
+    height: 51px;
+}
+
+nav[role="admin"].topbar {
+    background: #1f2021;
+    border: none;
+    margin-bottom: 0;
+    z-index: 9999;
+    height: 51px;
+}
+
+nav[role="admin"].navbar-fixed-bottom, nav[role="admin"].navbar-fixed-top {
+    position: relative;
+}
+
+nav[role="admin"].topbar, nav[role="admin"].navbar-header a {
+    color: #ffffff;
+}
+
+nav[role="admin"] .navbar-btn {
+    background: none;
+    border: none;
+    height: 35px;
+    min-width: 35px;
+    color: #fff;
+}
+
+nav[role="admin"] .navbar-text {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+nav[role="admin"] .button {
+    margin-right: 5px!important;
+}
+
+
+.position {
+    padding-top: 6px;
+}
+
+nav[role="admin"] .buttons a {
+    color: white;
+}
+
+nav[role="admin"] .navbar-header {
+    float: left;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+nav[role="admin"] .nav {
+    background: none;
+}
+
+nav[role="admin"] .navbar-brand {
+    float: left;
+    margin-left: 0;
+    height: 40px;
+    padding-left: 50px;
+}
+
+#navbarRegular {
+    padding-top: 50px;
+
+}
+#hiddenBtn {
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    height: 51px;
+    width: 51px;
+    border-radius: 0;
+}
+#hiddenBtn i{
+    color: white;
+}
+
+#save {
+    display:none;
+}
+
+.btnColor {
+    background-color: black;
+}
+
+.navbar-btn img {
+    height: 30px;
+    width: 30px;
+}
+
+#myModal {
+    padding-top: 30px;
+}
+
+.modal-body, .modal-footer, .panel-body {
+    background-color: #1f2021;
+}
+
+.panel-heading {
+    background-color: #2f2f2f!important;
+    color: white!important;
+}
+
+#myModal h3,h4 {
+    color: #777;
+}
+
+
