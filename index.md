@@ -1,31 +1,31 @@
 
 
 ## 5D Vision
-* <a href="/projects/5dVeebileht/index.html">5D Vision veebileht</a>
-* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodcmJiNDdhbGVRSGc?usp=sharing">5D Vision veebilehe kavandid ning muud kujundus failid</a>
-<p>See projekt sai tehtud 5D Vision praktika vältel. Sellest lehest pidi saama nende uus koduleht, kuid teadmata
-    põhjustel seda ei juhtunud. </p>
+* <a href="/projects/5dVeebileht/index.html">5D Vision webpage</a>
+* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodcmJiNDdhbGVRSGc?usp=sharing">5D Vision webpage draft and other design stuff</a>
+<p>This project was made while interning at 5D Vision, it was set to be their new webpage, but for unknown reasons did not happen. </p>
     
-## Webstate koduleht
-* <a href="https://wompdoo.github.io/webstate/">Webstate koduleht</a>
-<p>Tulevane webstate koduleht</p>
+## Webstate webpage
+* <a href="https://wompdoo.github.io/webstate/">Webstate webpage (Only viewable in desktop)</a>
+<p>Made while working at Websate OÜ, was given a task to design a webpage for this company from scratch.</p>
 
-## Webstate praktika projekt
+## Webstate internship project
 * <a href="http://elektrosystem.ee/#/">Elektrosystem.ee</a>
-<p>Praktika käigus tehtud projekt, tehtud kavandi põhjal mida ma ei loonud. Loodud MEANiga</p>
+<p>Made while interning at Websate OÜ, made from an outsorced draft, I did not create the design. Created with MEAN(MongoDB, Express, AngularJS, and Node.js) First real contact with Angular.</p>
 
-## Tulevane tegemisel oleva projekti kavand
+## A draft for a future finnish logging company.
 * <a href="https://imgur.com/5OOnFxZ">turenkinklapi</a>
+<p>This is actually made from scratch by me and featured to go feature scrolling animation. This project exists in working condition, just haven't put this up yet.</p>
 
-## MKR Veebileht ja admin vaade
-* <a href="http://mkr-kild.uphero.com/">MKR Veebileht + admin vaade</a>
-<p>Kutsehariduskeskuse lõputöö, ma tegelesin peamiselt admin vaatega</p>
+## MKR webpage and admin view
+* <a href="http://mkr-kild.uphero.com/">MKR webpage + admin</a>
+<p>TVEC final project.</p>
 
 ## Purr-Woof
-* <a href="https://github.com/WompDoo/Purr-Woof">Purr-Woof LUA koodis ehitatud android mängu Github link</a>
-* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodQ1R0NGQwS1JaZm8?usp=sharing">Purr-Woof LUA koodis ehitatud android mängu link + minu tehtud graafika mängu jaoks</a>
-<p>APK fail on google draivis. Mängus saab valida endale looma ning teda sügada ja näiteks õue viia.</p>
+* <a href="https://github.com/WompDoo/Purr-Woof">Purr-Woof small mobile game built in LUA</a>
+* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodQ1R0NGQwS1JaZm8?usp=sharing">Link to the game and google drive of the art I made (I supposed to be cutesy and childlike)</a>
+<p>APK file in google drive. In the game you can choose your animal and can scratch and take him outside.</p>
  
 ## Google Drive 
-* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodYWJfRWlKUHFGWDA?usp=sharing">Google Draiv minu projektidest</a>
+* <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodYWJfRWlKUHFGWDA?usp=sharing">Google Drive of my projects</a>
 
