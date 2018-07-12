@@ -1,7 +1,7 @@
 
 
 ## 5D Vision
-* <a href="/projects/5dVeebileht/index.html">5D Vision webpage</a>
+* <a href="https://wompdoo.github.io/projects/5dVeebileht/index.html">5D Vision webpage</a>
 * <a href="https://drive.google.com/drive/folders/0B5hZ23rIVpodcmJiNDdhbGVRSGc?usp=sharing">5D Vision webpage draft and other design stuff</a>
 <p>This project was made while interning at 5D Vision, it was set to be their new webpage, but for unknown reasons did not happen. </p>
     
@@ -15,7 +15,7 @@
 
 ## A draft for a future finnish logging company.
 * <a href="https://imgur.com/5OOnFxZ">turenkinklapi draft</a>
-* <a href="/projects/turengin/index.html">Website itself (Only viewable in desktop)</a>
+* <a href="https://wompdoo.github.io/projects/turengin/index.html">Website itself (Only viewable in desktop)</a>
 <p>This is actually made from scratch by me and featured to go feature scrolling animation.
 
 ## MKR webpage and admin view
