@@ -19,7 +19,7 @@
 <p>This is actually made from scratch by me and featured to go feature scrolling animation.
 
 ## MKR webpage and admin view
-* <a href="http://mkr-kild.uphero.com/">MKR webpage + admin</a
+* <a href="http://mkr-kild.uphero.com/">MKR webpage + admin</a>
 <p>TVEC final project.</p>
 
 ## Purr-Woof
