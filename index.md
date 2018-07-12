@@ -15,7 +15,7 @@
 
 ## A draft for a future finnish logging company.
 * <a href="https://imgur.com/5OOnFxZ">turenkinklapi draft</a>
-* <a href="https://wompdoo.github.io/turengin/">Website itself (Only viewable in desktop)</a>
+* <a href="https://wompdoo.github.io/turengin/index.html">Website itself (Only viewable in desktop)</a>
 <p>This is actually made from scratch by me and featured to go feature scrolling animation.
 
 ## MKR webpage and admin view
