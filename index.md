@@ -14,8 +14,9 @@
 <p>Made while interning at Websate OÜ, made from an outsorced draft, I did not create the design. Created with MEAN(MongoDB, Express, AngularJS, and Node.js) First real contact with Angular.</p>
 
 ## A draft for a future finnish logging company.
-* <a href="https://imgur.com/5OOnFxZ">turenkinklapi</a>
-<p>This is actually made from scratch by me and featured to go feature scrolling animation. This project exists in working condition, just haven't put this up yet.</p>
+* <a href="https://imgur.com/5OOnFxZ">turenkinklapi draft</a>
+* <a href="https://wompdoo.github.io/turengin/">Website itself (Only viewable in desktop)</a>
+<p>This is actually made from scratch by me and featured to go feature scrolling animation.
 
 ## MKR webpage and admin view
 * <a href="http://mkr-kild.uphero.com/">MKR webpage + admin</a>
