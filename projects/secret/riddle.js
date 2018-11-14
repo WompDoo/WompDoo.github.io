@@ -107,6 +107,7 @@ $(document).ready(function() {
 
 	/*Clicker game*/
 	$('#header').click(function () {
+		$(this).removeClass("animation").addClass("animation");
 		clickFunction();
 		localStorage.setItem("clicks", counter);
 	})
