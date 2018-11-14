@@ -107,7 +107,19 @@ $(document).ready(function() {
 
 	/*Clicker game*/
 	$('#header').click(function () {
-		$(this).removeClass("animation").addClass("animation");
+		$('#header').animate({
+			transform: 'scale(1.1)'
+		},{
+			duration: "50",
+			easing: "cubic-bezier(0.82, -0.21, 0.26, 1.01)"
+		}, function() {
+			$('#header').animate({
+				transform: 'scale(1)'
+			},{
+				duration: "50",
+				easing: "cubic-bezier(0.82, -0.21, 0.26, 1.01)"
+			});
+		});
 		clickFunction();
 		localStorage.setItem("clicks", counter);
 	})
