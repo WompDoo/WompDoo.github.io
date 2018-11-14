@@ -108,9 +108,6 @@ $(document).ready(function() {
 	/*Clicker game*/
 	$('#header').click(function () {
 		clickFunction();
-		$('#header').css({
-			'animation': 'plup .1s cubic-bezier(0.82, -0.21, 0.26, 1.01)'
-		})
 		localStorage.setItem("clicks", counter);
 	})
 
