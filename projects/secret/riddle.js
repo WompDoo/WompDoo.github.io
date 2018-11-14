@@ -32,37 +32,21 @@ $(document).ready(function() {
 		},
 		3: {
 			heading: 'Love',
-			desc: "You have completed this very simple maths quiz to unlock next hint "
+			desc: "19.06.2017 is 44 added up, that's the exact amount You have clicked"
 		},
 		4: {
-			heading: 'test',
-			desc: "You have completed this very simple maths quiz to unlock next hint "
-		},
-		5: {
-			heading: 'tes2',
-			desc: "You have completed this very simple maths quiz to unlock next hint "
-		},
-		6: {
-			heading: 'test23',
-			desc: "vYou have completed this very simple maths quiz to unlock next hint "
-		},
-		7: {
-			heading: 'tsese',
-			desc: "You have completed this very simple maths quiz to unlock next hint "
-		},
-		8: {
-			heading: 'testset',
-			desc: "You have completed this very simple maths quiz to unlock next hint "
+			heading: 'Shop',
+			desc: "You have unlocked the shop"
 		}
-
 	}
 
 
 	var stuff = $('.question-container')[0].childElementCount;
 	var count = 0;
-	var counter = 0;
+	var counter = localStorage.getItem("clicks");
 	var color = 0;
-	var height = 0;
+	var header = localStorage.getItem("header");
+
 
 	$.each(questions, function (i) {
 		$('.riddle-question').append('<h2 id="q'+ i +'">' + questions[i] + '</h2>');
@@ -70,6 +54,8 @@ $(document).ready(function() {
 
 	$('.riddle-question h2').hide();
 	$('.riddle-hint').hide();
+	$('#click-count').hide();
+	$('.shop').hide();
 
 	function populateAnswer() {
 		if(localStorage.visited == 'yes' ) {
@@ -117,15 +103,43 @@ $(document).ready(function() {
 	}
 
 
+
+
 	/*Clicker game*/
 	$('#header').click(function () {
+		clickFunction();
+		$('#header').css({
+			'animation': 'plup .1s cubic-bezier(0.82, -0.21, 0.26, 1.01)'
+		})
+		localStorage.setItem("clicks", counter);
+	})
+
+	function clickFunction(e) {
+		if (e === 0) {
+			if (localStorage.getItem("clicks") === null) {
+				counter == 0;
+			} else {
+				counter == localStorage.getItem("clicks");
+			}
+		}
 		counter++
-		console.log(achievements[1].heading);
+		$('#click-count').text(counter);
+		if (localStorage.getItem("header") != null) {
+			$('#header').text(localStorage.getItem("header"));
+		}
+		if (localStorage.getItem("clicksVisible") != null) {
+			$('#click-count').text(counter).delay(300).fadeIn(1200);
+		}
+		if (localStorage.getItem("shopUnlocked") != null) {
+			$('.shop').delay(300).fadeIn(1200);
+		}
 		if(counter == 10) {
-			$(this).text('Hello my baby');
-		} else if (counter == 25) {
+			$('#header').text('Hello my baby');
+			localStorage.setItem("header", 'Hello my baby');
+		} else if (counter == 22) {
 			achievement(1);
-			$(this).text('Keep going');
+			localStorage.setItem("header", 'Keep going');
+			$('#header').text('Keep going');
 			$('.fun').text('Are you having fun yet? :D')
 		} else if (counter >= 35 && counter < 44) {
 			if(color < 1) {
@@ -133,23 +147,23 @@ $(document).ready(function() {
 			} else {
 				color = 1;
 			}
-			height = height + 22.2;
-			console.log(height);
-			$('body').css({
-				'background-image': 'linear-gradient(to bottom, rgba(255,0,0, '+ color +'), white)'
-			})
 			$('#header').css({
-				'transform' : 'translateY(-'+ height +'px)'
+				'background-color': 'rgba(255,0,0, '+ color +')'
 			})
 		} else if (counter == 44) {
-			$(this).css('color', 'white');
-			$(this).text('I love You!');
+			$('#header').css('color', 'white');
+			$('#header').text('I love You!');
+			localStorage.setItem("header", 'I love You!');
+			localStorage.setItem("clicksVisible", 'yes');
+			$('#click-count').text(counter).delay(300).fadeIn(1200);
 			achievement(3);
 			$('.riddle-hint').text('test').delay(300).fadeIn(1200);
 		} else if (counter == 100) {
-
+			localStorage.setItem("shopUnlocked", 'yes');
+			$('.shop').delay(300).fadeIn(1200);
+			achievement(4);
 		}
-	})
+	}
 
 	$('.question-container button').click(function () {
 		if(($(this).text()) == answer[count - 1]) {
@@ -159,7 +173,6 @@ $(document).ready(function() {
 			})
 			$('.question-container button').removeAttr( "style" );
 		} else {
-			console.log($(this));
 			$(this).css({
 				'box-shadow' : '0px 5px 20px 0px rgb(243, 8, 8)',
 				'background' : 'red'
@@ -195,9 +208,8 @@ $(document).ready(function() {
 	function populateAchievements(e) {
 		if (e == 0) {
 			for ( var i = 1, len = Object.keys(achievements).length; i <= len; ++i ) {
-				console.log(i);
 				if($('.achievementS' + i).length < 1) {
-					$('.achievement-container').prepend('<div class="achievement-p achievementS' + i + '"><h3 style="margin-top: 12px; margin-bottom: 6px;">' + achievements[i].heading.replace(/\w/g, "?") + '</h3><p style="margin-top: 0px">' + achievements[i].desc.replace(/\w/g, "?") + '</p></div>');
+					$('.achievement-container').prepend('<div class="achievement-p achievementS' + i + '"><h3 style="margin-top: 12px; margin-bottom: 6px;">' + achievements[i].heading.replace(/\w/g, "?") + '</h3><p style="margin-top: 0px; margin-bottom: 8px;">' + achievements[i].desc.replace(/\w/g, "?") + '</p></div>');
 				}
 			}
 		} else {
@@ -205,7 +217,7 @@ $(document).ready(function() {
 				if(localStorage.getItem('achievement' + i) != null) {
 					if($('.achievement' + i).length < 1) {
 						$('.achievementS' + i).fadeOut().remove();
-						$('.achievement-container').append('<div class="achievement-p achievement'+ i +'"><h3 style="margin-top: 12px; margin-bottom: 6px;">'+ achievements[i].heading +'</h3><p style="margin-top: 0px">'+ achievements[i].desc +'</p></div>').fadeIn;
+						$('.achievement-container').append('<div class="achievement-p achievement'+ i +'"><h3 style="margin-top: 12px; margin-bottom: 6px;">'+ achievements[i].heading +'</h3><p style="margin-top: 0px; margin-bottom: 8px;">'+ achievements[i].desc +'</p></div>').fadeIn;
 					}
 				}
 			}
@@ -216,6 +228,7 @@ $(document).ready(function() {
 		populateAchievements(0);
 		populateAnswer();
 		achievement();
+		clickFunction();
 	}
 
 	init();
