@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbe3a67f-2a42-42e8-9eaa-e57f58da73b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects/secret/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/secret/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/secret/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/secret/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/secret/riddle.js" beforeDir="false" afterPath="$PROJECT_DIR$/projects/secret/riddle.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/secret/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="84" column="25" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="25" />
+            <state relative-caret-position="521">
+              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="riddle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="riddle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/secret/riddle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="382" column="64" lean-forward="true" selection-start-line="382" selection-start-column="64" selection-end-line="382" selection-end-column="64" />
+            <state relative-caret-position="548">
+              <caret line="394" column="21" lean-forward="true" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
@@ -46,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/secret/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="328" column="34" lean-forward="true" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
+            <state relative-caret-position="198">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="e#154#399#2" expanded="true" />
               </folding>
@@ -83,6 +80,7 @@
       <find>AR</find>
       <find>munies</find>
       <find>test</find>
+      <find>console</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,8 +92,8 @@
         <option value="$PROJECT_DIR$/projects/secret/american-dollar-sign.svg" />
         <option value="$PROJECT_DIR$/projects/secret/virtual-reality.svg" />
         <option value="$PROJECT_DIR$/projects/secret/index.html" />
-        <option value="$PROJECT_DIR$/projects/secret/css.css" />
         <option value="$PROJECT_DIR$/projects/secret/riddle.js" />
+        <option value="$PROJECT_DIR$/projects/secret/css.css" />
       </list>
     </option>
   </component>
@@ -185,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541059542380</updated>
       <workItem from="1541059543520" duration="58862000" />
-      <workItem from="1542267309366" duration="26064000" />
+      <workItem from="1542267309366" duration="26465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84926000" />
+    <option name="totallyTimeSpent" value="85327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -277,20 +275,10 @@
     <entry file="file://$PROJECT_DIR$/projects/secret/virtual-reality.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/secret/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="328" column="34" lean-forward="true" selection-start-line="328" selection-start-column="34" selection-end-line="328" selection-end-column="34" />
-          <folding>
-            <element signature="e#154#399#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/secret/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="84" column="25" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="25" />
+        <state relative-caret-position="521">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#!!top" expanded="true" />
@@ -300,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/secret/riddle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="382" column="64" lean-forward="true" selection-start-line="382" selection-start-column="64" selection-end-line="382" selection-end-column="64" />
+        <state relative-caret-position="548">
+          <caret line="394" column="21" lean-forward="true" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
@@ -309,6 +297,16 @@
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/secret/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#154#399#2" expanded="true" />
           </folding>
         </state>
       </provider>
