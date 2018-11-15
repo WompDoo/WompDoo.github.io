@@ -204,7 +204,6 @@ $(document).ready(function () {
 				$('#item-2').text(price);
 				localStorage.setItem("clickPrice2", price);
 				localStorage.setItem("autoClicksUnlocked", 'yes');
-				console.log('arab2');
 				if(localStorage.getItem("autoClickCount") !=  null) {
 					autoClickCount = 1;
 				} else {
@@ -378,7 +377,6 @@ $(document).ready(function () {
 	var input = "";
 	document.body.addEventListener('keypress',function(ev){
 		input += String.fromCharCode(ev.keyCode);
-		console.log(input);
 		if(input == word){
 			$('.alert-box').text('Check Your own bedside drawer, I love You!');
 			$('.alert-box').css("display", "flex").hide().fadeIn().delay(10000).fadeOut('slow');
