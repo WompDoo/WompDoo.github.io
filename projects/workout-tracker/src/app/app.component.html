@@ -1,0 +1,16 @@
+<div class="calendar-body">
+    <div class="date">Today is {{today | date}}</div>
+    <div class="heading">Todays list:</div>
+    <div class="container">
+        <div (click)="toggleSit = !toggleSit" [ngClass]="{ 'done': toggleSit }">Sit-ups:{{dataToDisplay.sitUps}}</div>
+        <div (click)="toggleSqt = !toggleSqt" [ngClass]="{ 'done': toggleSqt }">Squats:{{dataToDisplay.squat}}</div>
+        <div (click)="togglePush = !togglePush" [ngClass]="{ 'done': togglePush }">Push-ups:{{dataToDisplay.pushUps}}</div>
+        <div (click)="togglePlank = !togglePlank" [ngClass]="{ 'done': togglePlank }">Plank:{{dataToDisplay.plank}}</div>
+        <div class="heading">Movement:</div>
+        <div (click)="toggleMove = !toggleMove" [ngClass]="{ 'done': toggleMove }">Time:{{dataToDisplay.time}} min</div>
+        <div (click)="toggleMove = !toggleMove" [ngClass]="{ 'done': toggleMove }">Steps:{{dataToDisplay.steps}}</div>
+        <div (click)="toggleMove = !toggleMove" [ngClass]="{ 'done': toggleMove }">Running:{{dataToDisplay.running}} min</div>
+    </div>
+</div>
+<button class="level" (click)="raiseLevel()">Level up</button>
+<div class="started">Started on {{started | date}}</div>
