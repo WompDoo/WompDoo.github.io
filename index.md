@@ -9,6 +9,10 @@
 * <a href="https://wompdoo.github.io/webstate/">Webstate webpage (Only viewable in desktop)</a>
 <p>Made while working at Websate OÜ, was given a task to design a webpage for this company from scratch.</p>
 
+## Game
+* <a href="https://wompdoo.github.io/projects/game">Game</a>
+<p>Game demo</p>
+
 ## Webstate internship project
 * <a href="http://elektrosystem.ee/#/">Elektrosystem.ee</a>
 <p>Made while interning at Websate OÜ, made from an outsorced draft, I did not create the design. Created with MEAN(MongoDB, Express, AngularJS, and Node.js) First real contact with Angular.</p>
