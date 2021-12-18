@@ -9,28 +9,37 @@
     <link rel="stylesheet" type="text/css" href="styles.css"></link>
 </head>
 <body>
-    <sdas class="background"></>
-    <div id="char">
-      <div class="info">
+    <div class="field">
+      <div class="hp-bars">
         <div id="char-hp" class="healthbar">
-          <div class="hp"></div>
+          <div class="hp-container">
+            <div class="hp"></div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div id="enemy">
-      <div class="info">
         <div id="enemy-hp" class="healthbar">
-          <div class="hp"></div>
+          <div class="hp-container">
+            <div class="hp"></div>
+          </div>
+        </div>
+      </div>
+      <div id="char">
+        <div class="info">
+        </div>
+      </div>
+      <div id="enemy">
+        <div class="info">
         </div>
       </div>
     </div>
-
-    <ul id="attacks">
-      <li><a id="1">Attack 1</a></li>
-      <li><a id="2">Attack 2</a></li>
-      <li><a id="3">Attack 3</a></li>
-      <li><a id="4">Attack 4</a></li>
-    </ul>
+    <div class="ui">
+      <ul id="attacks">
+        <li><a id="1">Attack 1</a></li>
+        <li><a id="2">Attack 2</a></li>
+        <li><a id="3">Attack 3</a></li>
+        <li><a id="4">Attack 4</a></li>
+      </ul>
+    </div>
+    
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="scripts.js"></script>

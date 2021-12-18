@@ -1,87 +1,258 @@
-@keyframes melee-char {
+@keyframes idle-char {
   0% {
-    transform: scale(1) translate(0);
+    background: url("assets/Char/Anims/Idle/char-idle-1.png");
+    background-size: cover;
+    background-position: top;
   }
-  5% {
-      transform: scale(1) translate(0);
+  9% {
+    background: url("assets/Char/Anims/Idle/char-idle-2.png");
+    background-size: cover;
+    background-position: top;
   }
-  30% {
-      transform: scale(1) translate(180px);
+  18.1% {
+    background: url("assets/Char/Anims/Idle/char-idle-3.png");
+    background-size: cover;
+    background-position: top;
   }
-  35% {
-      transform: scale(1) translate(180px);
+  27.2% {
+    background: url("assets/Char/Anims/Idle/char-idle-4.png");
+    background-size: cover;
+    background-position: top;
   }
-  40% {
-      transform: scale(1) translate(180px);
+  36.3% {
+    background: url("assets/Char/Anims/Idle/char-idle-5.png");
+    background-size: cover;
+    background-position: top;
   }
-  45% {
-      transform: scale(1) translate(200px);
+  45.4% {
+    background: url("assets/Char/Anims/Idle/char-idle-6.png");
+    background-size: cover;
+    background-position: top;
   }
-  50% {
-      transform: scale(1) translate(195px);
+  54.5% {
+    background: url("assets/Char/Anims/Idle/char-idle-7.png");
+    background-size: cover;
+    background-position: top;
   }
-  55% {
-      transform: scale(1) translate(200px);
+  63.6% {
+    background: url("assets/Char/Anims/Idle/char-idle-8.png");
+    background-size: cover;
+    background-position: top;
   }
-  60% {
-      transform: scale(1) translate(180px);
+  72.7% {
+    background: url("assets/Char/Anims/Idle/char-idle-9.png");
+    background-size: cover;
+    background-position: top;
   }
-  65% {
-      transform: scale(1) translate(180px);
+  81.8% {
+    background: url("assets/Char/Anims/Idle/char-idle-10.png");
+    background-size: cover;
+    background-position: top;
   }
-  70% {
-      transform: scale(1) translate(180px);
-  }
-  95% {
-      transform: scale(1) translate(0);
+  90.9% {
+    background: url("assets/Char/Anims/Idle/char-idle-11.png");
+    background-size: cover;
+    background-position: top;
   }
   100% {
-      transform: scale(1) translate(0);
+    background: url("assets/Char/Anims/Idle/char-idle-12.png");
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@keyframes enemy-char {
+  0% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_000.png");
+    background-size: cover;
+    background-position: top;
+  }
+  5% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_001.png");
+    background-size: cover;
+    background-position: top;
+  }
+  10% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_001.png");
+    background-size: cover;
+    background-position: top;
+  }
+  15% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_002.png");
+    background-size: cover;
+    background-position: top;
+  }
+  20% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_003.png");
+    background-size: cover;
+    background-position: top;
+  }
+  25% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_004.png");
+    background-size: cover;
+    background-position: top;
+  }
+  30% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_005.png");
+    background-size: cover;
+    background-position: top;
+  }
+  35% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_006.png");
+    background-size: cover;
+    background-position: top;
+  }
+  40% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_007.png");
+    background-size: cover;
+    background-position: top;
+  }
+  45% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_008.png");
+    background-size: cover;
+    background-position: top;
+  }
+  50% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_009.png");
+    background-size: cover;
+    background-position: top;
+  }
+  55% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_010.png");
+    background-size: cover;
+    background-position: top;
+  }
+  60% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_011.png");
+    background-size: cover;
+    background-position: top;
+  }
+  65% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_012.png");
+    background-size: cover;
+    background-position: top;
+  }
+  70% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_013.png");
+    background-size: cover;
+    background-position: top;
+  }
+  75% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_014.png");
+    background-size: cover;
+    background-position: top;
+  }
+  80% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_015.png");
+    background-size: cover;
+    background-position: top;
+  }
+  85% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_016.png");
+    background-size: cover;
+    background-position: top;
+  }
+  90% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_017.png");
+    background-size: cover;
+    background-position: top;
+  }
+  95% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_000.png");
+    background-size: cover;
+    background-position: top;
+  }
+  100% {
+    background: url("assets/Enemy/Anims/Idle/0_Goblin_Idle_000.png");
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+@keyframes melee-char {
+  0% {
+    transform: translate(0);
+  }
+  5% {
+      transform: translate(0);
+  }
+  30% {
+      transform: translate(180px);
+  }
+  35% {
+      transform: translate(180px);
+  }
+  40% {
+      transform: translate(180px);
+  }
+  45% {
+      transform: translate(200px);
+  }
+  50% {
+      transform: translate(195px);
+  }
+  55% {
+      transform: translate(200px);
+  }
+  60% {
+      transform: translate(180px);
+  }
+  65% {
+      transform: translate(180px);
+  }
+  70% {
+      transform: translate(180px);
+  }
+  95% {
+      transform: translate(0);
+  }
+  100% {
+      transform: translate(0);
   }
 }
 .melee-char {
-  animation: melee-char 2s ease 0s normal none;
+  animation: melee-char 2s ease 0s normal none !important;
 }
 
 @keyframes melee-enemy {
   0% {
-    transform: scale(1) translate(0);
+    transform: translate(0);
   }
   5% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
   30% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   35% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   40% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   45% {
-      transform: scale(1) translate(-200px);
+      transform: translate(-200px);
   }
   50% {
-      transform: scale(1) translate(-195px);
+      transform: translate(-195px);
   }
   55% {
-      transform: scale(1) translate(-200px);
+      transform: translate(-200px);
   }
   60% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   65% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   70% {
-      transform: scale(1) translate(-180px);
+      transform: translate(-180px);
   }
   95% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
   100% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
 }
 .melee-enemy {
@@ -112,19 +283,19 @@
 
 @keyframes damage-char {
   0% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
   25% {
-      transform: scale(1) translate(-10px);
+      transform: translate(-10px);
   }
   50% {
-      transform: scale(1) translate(-15px);
+      transform: translate(-15px);
   }
   75% {
-      transform: scale(1) translate(-10px);
+      transform: translate(-10px);
   }
   100% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
 }
 .dmg-char {
@@ -133,19 +304,19 @@
 
 @keyframes damage-enemy {
   0% {
-    transform: scale(1) translate(0);
+    transform: translate(0);
   }
   25% {
-      transform: scale(1) translate(10px);
+      transform: translate(10px);
   }
   50% {
-      transform: scale(1) translate(15px);
+      transform: translate(15px);
   }
   75% {
-      transform: scale(1) translate(10px);
+      transform: translate(10px);
   }
   100% {
-      transform: scale(1) translate(0);
+      transform: translate(0);
   }
 }
 .dmg-enemy {

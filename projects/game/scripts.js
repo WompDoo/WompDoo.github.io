@@ -125,7 +125,7 @@ $(function () {
 
   function dmgCalc(dmg, target) {
     target.health = target.health - dmg;
-    $("#" + target.id + "-hp > .hp").css("width", target.health);
+    $("#" + target.id + "-hp > .hp-container > .hp").css("width", target.health + "%");
   }
 
   function playAnimation(attacker, target, animation) {
